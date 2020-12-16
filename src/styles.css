@@ -11,3 +11,8 @@ input {
   padding: 1rem;
   width: 80%;
 }
+
+.container {
+  text-align: center;
+  padding: 1rem;
+}

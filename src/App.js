@@ -109,6 +109,7 @@ export default function App() {
       />
       <h2> {emoji} </h2>
       <h3> {meaning} </h3>
+      <div class="container">
       {
         emojis.map((emoji) => (
           <span
@@ -120,6 +121,8 @@ export default function App() {
           </span>
         ))
       }
+      </div>
+      
     </div>
   );
 }
